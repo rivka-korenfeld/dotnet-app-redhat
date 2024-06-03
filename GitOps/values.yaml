@@ -24,7 +24,7 @@ deploy:
   #    memory: 128Mi
   ingress:
     enabled: true
-    Domain: -n $WORKSHOP_USER-argocd
+    Domain: apps.cluster-5shjw.dynamic.redhatworkshops.io
     ## More information: https://docs.openshift.com/container-platform/4.6/networking/routes/secured-routes.html
     tls:
       enabled: true
